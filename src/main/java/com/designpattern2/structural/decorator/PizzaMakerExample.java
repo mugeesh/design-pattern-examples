@@ -17,11 +17,15 @@ public class PizzaMakerExample {
 		System.out.println("Price: " + basicPizza.getCost());
 		System.out.println("----------------");
 		System.out.println("three pizza....");
-		
-		Pizza  threePIzza = new TomatoSauce(new ThreeCheesePizza());
 
+		Pizza threePIzza = new ThreeCheesePizza();
 		System.out.println("Ingredients: " + threePIzza.getDescription());
-
+		System.out.println("Price: " + threePIzza.getCost());
+		System.out.println("----------------");
+		System.out.println("three pizza with tomoto sauce");
+		
+		threePIzza = new TomatoSauce(new ThreeCheesePizza());
+		System.out.println("Ingredients: " + threePIzza.getDescription());
 		System.out.println("Price: " + threePIzza.getCost());
 
 	}
