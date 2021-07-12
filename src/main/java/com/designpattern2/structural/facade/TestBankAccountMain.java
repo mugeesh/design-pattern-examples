@@ -7,6 +7,14 @@ package com.designpattern2.structural.facade;
  * It hides the complexities of the system and provides an interface to the client 
  * from where the client can access the system.
  */
+/* 
+ * Example: 
+ * the interface JDBC can be called a facade because, 
+ * we as users or clients create connection using the “java.sql.Connection” 
+ * interface, the implementation of which we are not concerned about. 
+ * The implementation is left to the vendor of driver.
+ * Ref: https://www.geeksforgeeks.org/facade-design-pattern-introduction/
+*/
 
 public class TestBankAccountMain {
 	public static void main(String[] args) {
