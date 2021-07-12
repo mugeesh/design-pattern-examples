@@ -16,7 +16,7 @@ package com.designpattern2.structural.facade;
  * Ref: https://www.geeksforgeeks.org/facade-design-pattern-introduction/
 */
 
-public class TestBankAccountMain {
+public class TestBankAccountExample {
 	public static void main(String[] args) {
 		BankAccountFacade accessingBank = new BankAccountFacade(123456789, 1234);
 
