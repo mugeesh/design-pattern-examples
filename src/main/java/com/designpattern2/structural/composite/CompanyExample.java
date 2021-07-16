@@ -5,7 +5,7 @@ package com.designpattern2.structural.composite;
 //code
 //https://www.geeksforgeeks.org/composite-design-pattern/
 //https://www.youtube.com/watch?v=2HUnoKyC9l0&list=PLF206E906175C7E07&index=18
-public class Company {
+public class CompanyExample {
 	public static void main(String[] args) {
 		
 		Developer dev1 = new Developer(100, "Mugeesh Husain", "Developer");
