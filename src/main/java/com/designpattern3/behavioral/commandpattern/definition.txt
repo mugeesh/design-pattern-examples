@@ -1,0 +1,10 @@
+/* https://www.youtube.com/watch?v=7Pj5kAhVBlg&list=PLF206E906175C7E07&index=12 */
+* The Command pattern is a behaviour design pattern in 
+* which an object is used to represent
+and encapsulate all the information needed to call a method at later time.
+* This information includes the method name, the object that owns the method and values for method parameter.
+
+ 1. Allows you to store list of code that is executed at a later time or many times.
+ 2. Client says I want a specific command to run when executes() is called on 1 of these encapsulated (hidden) Objects.
+ 3. An object called the Invoker transfer this command to another object called a reciever to execute thie right code.
+ 4. example : TurnTVOn -DeviceButton-TurnTVOn-Television.TurnTVOn()
