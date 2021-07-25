@@ -11,7 +11,11 @@ package com.designpattern3.behavioral.iterator;
  * The Iterator pattern provides you with a uniform way to access different collections of objects
  * 
  */
-
+/*
+ * This pattern is used to get a way to access the elements of a collection object in sequential manner
+ *  without any need to know its underlying representation. 
+ *  Iterator pattern falls under behavioral pattern category.
+ */
 public class RadioStationExample {
 
 	public static void main(String[] args) {
