@@ -14,6 +14,25 @@ package com.designpattern3.behavioral.mediator;
 public class TestStockMediatorExample {
 
 	public static void main(String[] args) {
+		StockMediator nyse=new StockMediator();
+		
+		GormanSlacks broker =new GormanSlacks(nyse);
+		JTPoorman broker2=new JTPoorman(nyse);
+		
+		broker.saleOffer("MicroSoft", 100);
+		broker.saleOffer("GOOGLE", 50);
+		
+		broker2.buyOffer("MicroSoft", 100);
+		
+		broker2.saleOffer("HSBC", 10);
+
+		broker2.buyOffer("HSBC", 10);
+		
+		broker2.saleOffer("LalaMove", 10);
+		
+		//broker2.buyOffer("Fleet", 100);
+
+		nyse.getStockOfferings();
 	}
 
 }
