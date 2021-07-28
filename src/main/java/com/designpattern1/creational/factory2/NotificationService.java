@@ -1,4 +1,4 @@
-package com.designpattern1.creational.factory.design;
+package com.designpattern1.creational.factory2;
 
 //geek
 public class NotificationService {
