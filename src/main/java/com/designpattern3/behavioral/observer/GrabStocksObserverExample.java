@@ -22,17 +22,31 @@ about any events that happen to the object they’re observing. ::refactoring.gu
 public class GrabStocksObserverExample {
 
 	public static void main(String[] args) {
-		StockGrabber stockGrabber=new StockGrabber();
-		
-		StockObserver observer1=new StockObserver(stockGrabber);
-		
-		stockGrabber.setIBMPrice(197.00);
-		stockGrabber.setApplePrice(677.00);
-		stockGrabber.setGooglePrice(676.00);
-		
+		StockGrabber stockGrabber = new StockGrabber();
+
+		StockObserver observer1 = new StockObserver(stockGrabber);
+
+		stockGrabber.setIBMPrice(200.00);
+		stockGrabber.setApplePrice(201.00);
+		stockGrabber.setGooglePrice(202.00);
+
+		stockGrabber.setIBMPrice(800.00);
+
 		stockGrabber.unregister(observer1);
-		
-		//StockObserver observer2=new StockObserver(stockGrabber);
+
+		StockObserver observer2 = new StockObserver(stockGrabber);
+
+		stockGrabber.setIBMPrice(300.00);
+		stockGrabber.setApplePrice(301.60);
+		stockGrabber.setGooglePrice(302.40);
+
+//		// Delete one of the observers
+//		// stockGrabber.unregister(observer2);
+//		stockGrabber.setIBMPrice(197.00);
+//		stockGrabber.setApplePrice(677.60);
+//        stockGrabber.setGooglePrice(676.40);
+
+
 	}
 
 }
