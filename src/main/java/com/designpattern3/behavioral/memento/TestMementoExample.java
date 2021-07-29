@@ -13,7 +13,7 @@ package com.designpattern3.behavioral.memento;
  * IT can store and retrieve stored Moementos.
  */
 
-public class TestMemento {
+public class TestMementoExample {
 
 	public static void main(String[] args) {
 		Originator originator = new Originator();
