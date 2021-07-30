@@ -1,6 +1,6 @@
 package com.designpattern3.behavioral.observer;
 
-//https://www.youtube.com/watch?v=jOnxYT8Iaoo&list=PLF206E906175C7E07&index=25&ab_channel=DerekBanas
+//https://www.youtube.com/watch?v=wiQdrH2YpT4&list=PLF206E906175C7E07&index=4
 
 /*
 Observer is a behaviour design pattern that lets you define a subscription mechanism to notify multiple objects 
@@ -30,9 +30,10 @@ public class GrabStocksObserverExample {
 		stockGrabber.setApplePrice(201.00);
 		stockGrabber.setGooglePrice(202.00);
 
-		stockGrabber.setIBMPrice(800.00);
+		//stockGrabber.setIBMPrice(800.00);
 
-		stockGrabber.unregister(observer1);
+        // Delete one of the observers
+		//stockGrabber.unregister(observer1);
 
 		StockObserver observer2 = new StockObserver(stockGrabber);
 
@@ -40,11 +41,13 @@ public class GrabStocksObserverExample {
 		stockGrabber.setApplePrice(301.60);
 		stockGrabber.setGooglePrice(302.40);
 
-//		// Delete one of the observers
-//		// stockGrabber.unregister(observer2);
-//		stockGrabber.setIBMPrice(197.00);
-//		stockGrabber.setApplePrice(677.60);
-//        stockGrabber.setGooglePrice(676.40);
+        // Delete one of the observers
+        // stockGrabber.unregister(observer2);
+         
+        stockGrabber.setIBMPrice(400.00);
+        stockGrabber.setApplePrice(401.60);
+        stockGrabber.setGooglePrice(402.00);
+         
 
 
 	}
