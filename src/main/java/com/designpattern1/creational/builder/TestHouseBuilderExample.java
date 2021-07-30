@@ -1,6 +1,6 @@
 package com.designpattern1.creational.builder;
 
-public class TestHouseBuilder {
+public class TestHouseBuilderExample {
 
 	//implemented 
 	//https://refactoring.guru/design-patterns/builder
