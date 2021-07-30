@@ -46,7 +46,7 @@
         <li><a href="#momento">Momento Design Pattern</a></li>
         <li><a href="#observer">Observer Design Pattern</a></li>
         <li><a href="#mediator">Mediator Design Pattern</a></li>
-        <li><a href="#state">State Design Pattern</a></li>
+        <li><a href="#state-design-attern">State Design Pattern</a></li>
         <li><a href="#strategy">Strategy Design Pattern</a></li>
         <li><a href="#template">Template Design Pattern</a></li>
         <li><a href="#visitor">Visitor Design Pattern</a></li>
@@ -107,8 +107,20 @@
 
 ### observer
 
-### state
-
+### State Design Pattern
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```JS
+   const API_KEY = 'ENTER YOUR API';
+   ```
 ### strategy
 
 ### template
