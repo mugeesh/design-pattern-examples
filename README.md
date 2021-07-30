@@ -170,13 +170,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [mugeesh](https://hk.linkedin.com/in/mugeesh) - mugeesh.husain@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
- 
+Project Link: [https://github.com/mugeeshh/design-pattern-examples](https://github.com/mugeeshh/design-pattern-examples)
 
