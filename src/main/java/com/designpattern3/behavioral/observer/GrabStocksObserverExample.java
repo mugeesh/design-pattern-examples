@@ -33,7 +33,7 @@ public class GrabStocksObserverExample {
 		//stockGrabber.setIBMPrice(800.00);
 
         // Delete one of the observers
-		//stockGrabber.unregister(observer1);
+		stockGrabber.unregister(observer1);
 
 		StockObserver observer2 = new StockObserver(stockGrabber);
 
@@ -48,8 +48,14 @@ public class GrabStocksObserverExample {
         stockGrabber.setApplePrice(401.60);
         stockGrabber.setGooglePrice(402.00);
          
-
-
+        System.out.println("-----------");
+		Runnable getIBM = new GetTheStock(stockGrabber, 2, "IBM", 500.00);
+		Runnable getAAPL = new GetTheStock(stockGrabber, 2, "AAPL", 600.00);
+        Runnable getGoog=new GetTheStock(stockGrabber, 2,"Google",700.00);
+        
+        new Thread(getIBM).start();
+        new Thread(getAAPL).start();
+        new Thread(getGoog).start();
 	}
 
 }
