@@ -46,7 +46,7 @@
         <li><a href="#momento">Momento Design Pattern</a></li>
         <li><a href="#observer">Observer Design Pattern</a></li>
         <li><a href="#mediator">Mediator Design Pattern</a></li>
-        <li><a href="#state-design-attern">State Design Pattern</a></li>
+        <li><a href="#state-design-pattern">State Design Pattern</a>
         <li><a href="#strategy">Strategy Design Pattern</a></li>
         <li><a href="#template">Template Design Pattern</a></li>
         <li><a href="#visitor">Visitor Design Pattern</a></li>
