@@ -25,19 +25,38 @@
     <li>
       <a href="#structural">Structural Design Pattern</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#adapter">Adapter Design Pattern</a></li>
+        <li><a href="#bridge">Bridge Design Pattern</a></li>
+        <li><a href="#decorator">Composite Design Pattern</a></li>
+        <li><a href="#bridge">Decorator Design Pattern</a></li>
+        <li><a href="#facade">Facade Design Pattern</a></li>
+        <li><a href="#flyweight">FlyWeight Design Pattern</a></li>
+        <li><a href="#bridge">Bridge Design Pattern</a></li>
+        <li><a href="#proxy">Proxy Design Pattern</a></li>
       </ul>
     </li>
    <li>
-      <a href="#structural">Behaviour  Design Pattern</a>
+      <a href="#behaviour">Behaviour  Design Pattern</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation22">Installatio2n</a></li>
+        <li><a href="#chain">Chain Of Responsibilities Design Pattern</a></li>
+        <li><a href="#command">Command Design Pattern</a></li>
+        <li><a href="#interpreter">Interpreter Design Pattern</a></li>
+        <li><a href="#iterator">Iterator Design Pattern</a></li>
+        <li><a href="#mediator">Mediator Design Pattern</a></li>
+        <li><a href="#momento">Momento Design Pattern</a></li>
+        <li><a href="#observer">Observer Design Pattern</a></li>
+        <li><a href="#mediator">Mediator Design Pattern</a></li>
+        <li><a href="#state">State Design Pattern</a></li>
+        <li><a href="#strategy">Strategy Design Pattern</a></li>
+        <li><a href="#template">Template Design Pattern</a></li>
+        <li><a href="#visitor">Visitor Design Pattern</a></li>
       </ul>
     </li>
   </ol>
 </details>
+
+<!-- ROADMAP -->
+## Creation Design Pattern
 
 ### creation
 
@@ -58,7 +77,44 @@
 ### structural
 
 
+### adapter
 
+
+### bridge
+### facade
+### composite
+
+### decorator
+
+### flyweight
+### proxy
+
+
+### behaviour
+
+### chain
+
+### command
+
+### interpreter
+
+
+### iterator
+
+### mediator
+
+### momento
+
+
+### observer
+
+### state
+
+### strategy
+
+### template
+
+### visitor
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
