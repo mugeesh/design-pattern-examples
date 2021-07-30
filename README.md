@@ -12,8 +12,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-    <a href="#about-the-project">About The Project</a>
-    <a href="##creation-Design-Pattern">Creation Design Pattern</a>
+    <a href="#creation-design-pattern">Creation Design Pattern</a>
       <ul>
         <li><a href="#factory">Factory Design Pattern</a></li>
         <li><a href="#absfactory">Abstract Factory Design Pattern</a></li>
@@ -56,7 +55,7 @@
   </ol>
 </details>
  
-## About The Project
+## Creation Design Pattern
 
 ### creation2
 
