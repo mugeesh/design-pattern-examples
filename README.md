@@ -117,7 +117,7 @@
 **ConcreteState:** Provides implementation for methods defined in State.<br/>
 
 
-### Strategy Design Pattern
+## Strategy Design Pattern
 **Definition :** 
 
 
