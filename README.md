@@ -110,7 +110,7 @@
 ## State Design Pattern
 **Definition :** State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.
   * This is all about composition.
-  * In this code example, we are changing the state of ATMMachine using its state(object)<br/><br/>
+  * In this code example, we are changing the state of ATMMachine using its state(object)<br/>
 **This Context:** Maintains an instance of a ConcreteState subclass that defines the current state.<br/>
 **State:** Defines interface for declaring what each concrete state should do.<br/>
 **ConcreteState:** Provides implementation for methods defined in State.<br/>
