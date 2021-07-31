@@ -107,8 +107,16 @@
 
 ### observer
 
-### State Design Pattern
-1. Get a free API Key at [https://example.com](https://example.com)
+## State Design Pattern
+**Definition :** A State Pattern says that "the class behavior changes based on its state.<br/>
+* Allows an Objects alter its behaviour when it internal state chanegs. The object will apear to change its classs.
+* This is all about composition.
+* In this code example, we are changing the state of ATMMachine using its state(object)
+**This Context:** Maintains an instance of a ConcreteState subclass that defines the current state.<br/>
+**State:** Defines interface for declaring what each concrete state should do.<br/>
+**ConcreteState:** Provides implementation for methods defined in State.<br/>
+
+
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
