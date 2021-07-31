@@ -1,5 +1,6 @@
 package com.designpattern3.behavioral.state;
 
+//This is a context class
 public class ATMMachine {
 
 	ATMState hasCard;
@@ -7,6 +8,7 @@ public class ATMMachine {
 	ATMState hasCorrectPin;
 	ATMState atmOutOfMoney;
 
+	//this is a state(maintain state)
 	ATMState atmState;
 
 	int cashInMachine = 2000;
@@ -19,50 +21,37 @@ public class ATMMachine {
 		hasCorrectPin = new HasPin(this);
 		atmOutOfMoney = new NoCash(this);
 
+		//default state is nocard
 		atmState = noCard;
 
 		if (cashInMachine < 0) {
-
 			atmState = atmOutOfMoney;
-
 		}
-
 	}
 
+	//here we are changing the state
 	void setATMState(ATMState newATMState) {
-
 		atmState = newATMState;
-
 	}
 
 	public void setCashInMachine(int newCashInMachine) {
-
 		cashInMachine = newCashInMachine;
-
 	}
 
 	public void insertCard() {
-
 		atmState.insertCard();
-
 	}
 
 	public void ejectCard() {
-
 		atmState.ejectCard();
-
 	}
 
 	public void requestCash(int cashToWithdraw) {
-
 		atmState.requestCash(cashToWithdraw);
-
 	}
 
 	public void insertPin(int pinEntered) {
-
 		atmState.insertPin(pinEntered);
-
 	}
 
 	public ATMState getYesCardState() {
