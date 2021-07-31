@@ -47,7 +47,7 @@
         <li><a href="#observer">Observer Design Pattern</a></li>
         <li><a href="#mediator">Mediator Design Pattern</a></li>
         <li><a href="#state-design-pattern">State Design Pattern</a>
-        <li><a href="#strategy">Strategy Design Pattern</a></li>
+        <li><a href="#strategy-design-pattern">Strategy Design Pattern</a></li>
         <li><a href="#template">Template Design Pattern</a></li>
         <li><a href="#visitor">Visitor Design Pattern</a></li>
       </ul>
@@ -117,7 +117,9 @@
 **ConcreteState:** Provides implementation for methods defined in State.<br/>
 
 
-### strategy
+### Strategy Design Pattern
+**Definition :** 
+
 
 ### template
 
