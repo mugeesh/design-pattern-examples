@@ -55,7 +55,7 @@
         <li><a href="#mediator">Mediator Design Pattern</a></li>
         <li><a href="#state-design-pattern">State Design Pattern</a>
         <li><a href="#strategy-design-pattern">Strategy Design Pattern</a></li>
-        <li><a href="#template">Template Design Pattern</a></li>
+        <li><a href="#template-design-pattern">Template Design Pattern</a></li>
         <li><a href="#visitor">Visitor Design Pattern</a></li>
       </ul>
     </li>
@@ -134,8 +134,7 @@
 
 
 
-
-### template
+## Template Design Pattern
 
 ### visitor
 
