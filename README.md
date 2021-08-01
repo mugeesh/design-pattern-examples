@@ -1,9 +1,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="left">
-  <p align="left"><h2>Design-Pattern:</h2>
-  <p>This repository contains all examples of design pattern along with code and reference:
- </p>
+  <p align="left"><h2>Design Pattern:</h2>
+  <p><b>*Design patterns</b> are typical solutions to commonly occurring problems in software design. They are like pre-made blueprints that you can customize to solve a recurring design problem in your code.  </p>
+ <h2>What does the pattern consist of?</h2>
+   <p>Most patterns are described very formally so people can reproduce them in many contexts. Here are the sections that are usually present in a pattern description:</p>
+<p><b>Intent</b> of the pattern briefly describes both the problem and the solution.</p>
+<p><b>Motivation</b> further explains the problem and the solution the pattern makes possible.</p>
+<p><b>Structure</b> of classes shows each part of the pattern and how they are related.</p>
+<p><b>Code</b> example in one of the popular programming languages makes it easier to grasp the idea behind the pattern.</p>
+
+  <h2>This repository contains all examples of design pattern along with code and reference:</h2>
   <h4>Design pattern are mainly categories  into 3 category.</h4>
 </p>
  
