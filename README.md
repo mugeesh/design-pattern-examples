@@ -137,10 +137,10 @@
 ## Template Design Pattern
 **Definition :** Template method design pattern is to define an algorithm as a skeleton of operations and leave the details to be implemented by the child classes.
 - Used to create a group of subclass that have to execute a similar group of methods.
-- you create an abstract class that contains a method called the Template Method
-- The Template Method contains a series of method calls that every subclass object will call
-- The subclass objects can override some of the method calls
-- 
+- you create an abstract class that contains a method called the Template Method.
+- The Template Method contains a series of method calls that every subclass object will call.
+- The subclass objects can override some of the method calls.
+
 **Benefits:** 
 - It is very common technique for reusing the code.This is only the main benefit of it.
 
