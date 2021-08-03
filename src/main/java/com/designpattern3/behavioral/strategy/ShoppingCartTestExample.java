@@ -11,8 +11,8 @@ public class ShoppingCartTestExample {
 	public static void main(String[] args) {
 		ShoppingCart cart=new ShoppingCart();
 		
-		Item item1=new Item("1234", 10);
-		Item item2=new Item("1234", 30);
+		Item item1=new Item("1001", 10);
+		Item item2=new Item("1002", 30);
 
 		cart.addItem(item1);
 		cart.addItem(item2);
