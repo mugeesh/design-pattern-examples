@@ -141,6 +141,8 @@
 - you create an abstract class that contains a method called the Template Method.
 - The Template Method contains a series of method calls that every subclass object will call.
 - The subclass objects can override some of the method calls.
+- **note** To make sure that subclasses don’t override the template method, **we should make it final.**
+
 
 **Benefits:** 
 - It is very common technique for reusing the code.This is only the main benefit of it.
