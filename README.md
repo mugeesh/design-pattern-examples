@@ -135,7 +135,8 @@
 
 
 ## Template Design Pattern
-**Definition :** Template method design pattern is to define an algorithm as a skeleton of operations and leave the details to be implemented by the child classes.
+**Definition :** Template method defines the steps to execute an algorithm and it can provide default implementation that might be common for all or some of the subclasses.
+- Template method design pattern is to define an algorithm as a skeleton of operations and leave the details to be implemented by the child classes.
 - Used to create a group of subclass that have to execute a similar group of methods.
 - you create an abstract class that contains a method called the Template Method.
 - The Template Method contains a series of method calls that every subclass object will call.
@@ -151,14 +152,7 @@
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
+   
    ```
 
 
