@@ -86,7 +86,7 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
 ## Builder Design Pattern
 **Definition :** Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
 
-### Advantage of Builder Design Pattern
+##### Advantage of Builder Design Pattern
 The main advantages of Builder Pattern are as follows:
 
 <li>It provides clear separation between the construction and representation of an object.</li>
