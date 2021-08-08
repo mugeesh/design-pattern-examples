@@ -39,13 +39,12 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
       <a href="#structural">Structural Design Pattern</a>
       <ul>
         <li><a href="#adapter-design-pattern">Adapter Design Pattern</a></li>
-        <li><a href="#bridge">Bridge Design Pattern</a></li>
-        <li><a href="#decorator">Composite Design Pattern</a></li>
-        <li><a href="#bridge">Decorator Design Pattern</a></li>
-        <li><a href="#facade">Facade Design Pattern</a></li>
-        <li><a href="#flyweight">FlyWeight Design Pattern</a></li>
-        <li><a href="#bridge">Bridge Design Pattern</a></li>
-        <li><a href="#proxy">Proxy Design Pattern</a></li>
+        <li><a href="#bridge-design-pattern">Bridge Design Pattern</a></li>
+        <li><a href="#composite-design-pattern">Composite Design Pattern</a></li>
+        <li><a href="#decorator-design-pattern">Decorator Design Pattern</a></li>
+        <li><a href="#facade-design-pattern">Facade Design Pattern</a></li>
+        <li><a href="#flyWeight-design-pattern">FlyWeight Design Pattern</a></li>
+        <li><a href="#Proxy-design-pattern">Proxy Design Pattern</a></li>
       </ul>
     </li>
    <li>
