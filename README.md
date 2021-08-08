@@ -101,6 +101,14 @@ Like Android charger would be compatible with Iphone Charger.
 
 
 ## Bridge Design Pattern
+Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+**Example** like in the code, DVD & TVRemote have same remote with different function.
+<li>Decouple an abstraction from its implementation so that the two can vary independently</li>
+<li>The bridge pattern is very poorly explained</li>
+**Advantrage**
+<li>It enables the separation of implementation from the interface.</li>
+<li>It improves the extensibility.</li>
+<li>It allows the hiding of implementation details from the client.</li>
 
 ## Composite Design Pattern
 
