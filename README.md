@@ -38,7 +38,7 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
     <li>
       <a href="#structural">Structural Design Pattern</a>
       <ul>
-        <li><a href="#adapter">Adapter Design Pattern</a></li>
+        <li><a href="#adapter-design-pattern">Adapter Design Pattern</a></li>
         <li><a href="#bridge">Bridge Design Pattern</a></li>
         <li><a href="#decorator">Composite Design Pattern</a></li>
         <li><a href="#bridge">Decorator Design Pattern</a></li>
@@ -96,11 +96,9 @@ The main advantages of Builder Pattern are as follows:
 
 ## pool
 
-
-### structural
-
-
-### adapter
+## Adapter Design Pattern
+Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+Like Android charger would be compatible with Iphone Charger.
 
 
 ## bridge
