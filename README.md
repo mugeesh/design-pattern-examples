@@ -31,7 +31,7 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
         <li><a href="#abstract-factory-design-pattern">Abstract Factory Design Pattern</a></li>
         <li><a href="#singleton-design-pattern">Singleton Design Pattern</a></li>
         <li><a href="#prototype-design-pattern">Prototype Design Pattern</a></li>
-        <li><a href="#builder">Builder Design Pattern</a></li>
+        <li><a href="#builder-design-pattern">Builder Design Pattern</a></li>
         <li><a href="#pool">Object Pool</a></li>
       </ul>
     </li>
@@ -83,9 +83,16 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
 **Definition :** Prototype Pattern says that cloning of an existing object instead of creating new one and can also be customized as per the requirement.
 
 
-## prototype
+## Builder Design Pattern
+**Definition :** Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
 
-## builder
+### Advantage of Builder Design Pattern
+The main advantages of Builder Pattern are as follows:
+
+It provides clear separation between the construction and representation of an object.
+It provides better control over construction process.
+It supports to change the internal representation of objects.
+
 
 ## pool
 
