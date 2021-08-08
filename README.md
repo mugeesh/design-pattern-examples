@@ -13,7 +13,12 @@
   <h2>This repository contains all examples of design pattern along with code and reference:</h2>
   <h4>Design pattern are mainly categories  into 3 category.</h4>
 </p>
- 
+ <p>
+  In addition, all patterns can be categorized by their intent, or purpose. There are three main groups of patterns:
+  **Creational patterns** provide object creation mechanisms that increase flexibility and reuse of existing code.
+  **Structural patterns** explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.
+  **Behavioral patterns** take care of effective communication and the assignment of responsibilities between objects.
+</p>
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
