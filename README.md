@@ -89,9 +89,9 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
 ### Advantage of Builder Design Pattern
 The main advantages of Builder Pattern are as follows:
 
-It provides clear separation between the construction and representation of an object.
-It provides better control over construction process.
-It supports to change the internal representation of objects.
+<li>It provides clear separation between the construction and representation of an object.</li>
+<li>It provides better control over construction process.</li>
+<li>It supports to change the internal representation of objects.</li>
 
 
 ## pool
