@@ -19,11 +19,17 @@ public class ShoppingCartTestExample {
 		
 		cart.removeItem(item2);
 		
+		//strategy design pattern using inheritance, we can do using composition. 
+		
 		//pay by paypal
 		cart.pay(new PaypalStrategy("mugeesh@gmail.com","admin@123"));
 		
 		//payment by credit card
 		cart.pay(new CreditCardStrategy("Mugeesh","12345678", "990", "08/22"));
+		
+		
+		
+		
 	}
 	/*
 	 * Strategy Design Pattern Important Points
