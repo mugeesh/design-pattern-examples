@@ -27,7 +27,7 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
     <li>
     <a href="#creation-design-pattern">Creation Design Pattern</a>
       <ul>
-        <li><a href="#factory">Factory Design Pattern</a></li>
+        <li><a href="#factory-design-pattern">Factory Design Pattern</a></li>
         <li><a href="#absfactory">Abstract Factory Design Pattern</a></li>
         <li><a href="#singleton">Singleton Design Pattern</a></li>
         <li><a href="#prototype">Prototype Design Pattern</a></li>
@@ -68,9 +68,9 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
   </ol>
 </details>
  
-## Creation Design Pattern
+## Factory Design Pattern
+**Definition :** Factory Pattern or Factory Method is a creational design pattern , just define an interface or abstract class for creating an object but let the subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class.
 
-### creation2
 
 ### factory
 
