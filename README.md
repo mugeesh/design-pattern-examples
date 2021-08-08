@@ -142,9 +142,8 @@
 - The Template Method contains a series of method calls that every subclass object will call.
 - The subclass objects can override some of the method calls.
 - **note** To make sure that subclasses don’t override the template method, **we should make it final.**
-
   **Benefits:** 
-  - It is very common technique for reusing the code.This is only the main benefit of it.
+- It is very common technique for reusing the code.This is only the main benefit of it.
 
 
 ## Visitor Design Pattern
@@ -153,7 +152,7 @@
 The visitor pattern consists of two parts:
 
 - a method called **Visit()** which is implemented by the visitor and is called for every element in the data structure
-- visitable classes providing Accept() methods that accept a visitor
+- visitable classes providing **Accept()** methods that accept a visitor
 
 **Advantages :**
 - If the logic of operation changes, then we need to make change only in the visitor implementation rather than doing it in all the item classes.
