@@ -30,7 +30,7 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
         <li><a href="#factory-design-pattern">Factory Design Pattern</a></li>
         <li><a href="#abstract-factory-design-pattern">Abstract Factory Design Pattern</a></li>
         <li><a href="#singleton-design-pattern">Singleton Design Pattern</a></li>
-        <li><a href="#prototype">Prototype Design Pattern</a></li>
+        <li><a href="#prototype-design-pattern">Prototype Design Pattern</a></li>
         <li><a href="#builder">Builder Design Pattern</a></li>
         <li><a href="#pool">Object Pool</a></li>
       </ul>
@@ -79,7 +79,9 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
 **Definition :** Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
 
-## singleton
+## Prototype Design Pattern
+**Definition :** Prototype Pattern says that cloning of an existing object instead of creating new one and can also be customized as per the requirement.
+
 
 ## prototype
 
