@@ -100,13 +100,19 @@ Adapter is a structural design pattern that allows objects with incompatible int
 Like Android charger would be compatible with Iphone Charger.
 
 
-## bridge
-## facade
-## composite
+## Bridge Design Pattern
 
-## decorator
+## Composite Design Pattern
 
-## flyweight
+## Decorator Design Pattern
+
+## Facade Design Pattern
+
+## FlyWeight Design Pattern
+
+## Proxy Design Pattern
+
+
 ## proxy
 
 
