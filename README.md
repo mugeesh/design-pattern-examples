@@ -143,9 +143,8 @@
 - The subclass objects can override some of the method calls.
 - **note** To make sure that subclasses don’t override the template method, **we should make it final.**
 
-
-**Benefits:** 
-- It is very common technique for reusing the code.This is only the main benefit of it.
+  **Benefits:** 
+  - It is very common technique for reusing the code.This is only the main benefit of it.
 
 
 ## Visitor Design Pattern
