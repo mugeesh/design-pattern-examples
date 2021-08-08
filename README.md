@@ -148,7 +148,7 @@
 - It is very common technique for reusing the code.This is only the main benefit of it.
 
 
-### Visitor Design Pattern
+## Visitor Design Pattern
 **Definition :** It is used when we have to perform an operation on a group of similar kind of Objects. With the help of visitor pattern, we can move the operational logic from the objects to another class.
 
 The visitor pattern consists of two parts:
