@@ -29,7 +29,7 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
       <ul>
         <li><a href="#factory-design-pattern">Factory Design Pattern</a></li>
         <li><a href="#abstract-factory-design-pattern">Abstract Factory Design Pattern</a></li>
-        <li><a href="#singleton-design-attern">Singleton Design Pattern</a></li>
+        <li><a href="#singleton-design-pattern">Singleton Design Pattern</a></li>
         <li><a href="#prototype">Prototype Design Pattern</a></li>
         <li><a href="#builder">Builder Design Pattern</a></li>
         <li><a href="#pool">Object Pool</a></li>
