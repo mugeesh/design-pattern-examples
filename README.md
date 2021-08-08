@@ -28,8 +28,8 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
     <a href="#creation-design-pattern">Creation Design Pattern</a>
       <ul>
         <li><a href="#factory-design-pattern">Factory Design Pattern</a></li>
-        <li><a href="#absfactory">Abstract Factory Design Pattern</a></li>
-        <li><a href="#singleton">Singleton Design Pattern</a></li>
+        <li><a href="#abstract-factory-design-pattern">Abstract Factory Design Pattern</a></li>
+        <li><a href="#singleton-design-attern">Singleton Design Pattern</a></li>
         <li><a href="#prototype">Prototype Design Pattern</a></li>
         <li><a href="#builder">Builder Design Pattern</a></li>
         <li><a href="#pool">Object Pool</a></li>
@@ -72,18 +72,20 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
 **Definition :** Factory Pattern or Factory Method is a creational design pattern , just define an interface or abstract class for creating an object but let the subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class.
 
 
-### factory
+## Abstract Factory Design Pattern
+**Definition :** Abstract Factory Pattern says that just define an interface or abstract class for creating families of related (or dependent) objects but without specifying their concrete sub-classes.That means Abstract Factory lets a class returns a factory of classes. So, this is the reason that Abstract Factory Pattern is one level higher than the Factory Pattern.
 
-### absfactory
+## Singleton Design Pattern
+**Definition :** Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
 
-### singleton
+## singleton
 
-### prototype
+## prototype
 
-### builder
+## builder
 
-### pool
+## pool
 
 
 ### structural
@@ -92,33 +94,33 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
 ### adapter
 
 
-### bridge
-### facade
-### composite
+## bridge
+## facade
+## composite
 
-### decorator
+## decorator
 
-### flyweight
-### proxy
-
-
-### behaviour
-
-### chain
-
-### command
-
-### interpreter
+## flyweight
+## proxy
 
 
-### iterator
+## behaviour
 
-### mediator
+## chain
 
-### momento
+## command
+
+## interpreter
 
 
-### observer
+## iterator
+
+## mediator
+
+## momento
+
+
+## observer
 
 ## State Design Pattern
 **Definition :** State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.
