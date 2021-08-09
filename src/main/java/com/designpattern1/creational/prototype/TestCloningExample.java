@@ -1,5 +1,6 @@
 package com.designpattern1.creational.prototype;
-public class TestCloning {
+
+public class TestCloningExample {
 	
 	public static void main(String[] args){
 		
