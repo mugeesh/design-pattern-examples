@@ -8,7 +8,7 @@ public class TestCloningExample {
 		// right subclasses of Animal
 		
 		//TODO this is  option
-		CloneFactory animalMaker = new CloneFactory();
+		//CloneFactory animalMaker = new CloneFactory();
 		
 		
 		// Creates a new Sheep instance

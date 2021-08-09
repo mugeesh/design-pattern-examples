@@ -1,12 +1,11 @@
 package com.designpattern1.creational.prototype;
+
 public class Sheep implements Animal {
 
-	public Sheep(){
-		
+	public Sheep() {
 		System.out.println("Sheep is Made");
-		
 	}
-	
+
 	public Animal makeCopy() {
 		System.out.println("Sheep is Being Made");
 		Sheep sheepObject = null;
@@ -15,15 +14,15 @@ public class Sheep implements Animal {
 			// Then casts the results to Sheep
 			sheepObject = (Sheep) super.clone();
 		}
-		// If Animal didn't extend Cloneable this error  is thrown
+		// If Animal didn't extend Cloneable this error is thrown
 		catch (CloneNotSupportedException e) {
 			System.out.println("The Sheep was Turned to Mush");
 			e.printStackTrace();
-		 }
+		}
 		return sheepObject;
 	}
-	
-	public String toString(){
+
+	public String toString() {
 		return "Dolly is my Hero, Baaaaa";
 	}
 }
