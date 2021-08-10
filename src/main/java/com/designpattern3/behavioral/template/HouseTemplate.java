@@ -1,9 +1,8 @@
 package com.designpattern3.behavioral.template;
-
 public abstract class HouseTemplate {
 
-	// template method, final so subclasses can't override
-	public final void buildHouse() {
+	//template method, final so subclasses can't override
+	public final void buildHouse(){
 		buildFoundation();
 		buildPillars();
 		buildWalls();
@@ -11,14 +10,13 @@ public abstract class HouseTemplate {
 		System.out.println("House is built.");
 	}
 
-	// default implementation
+	//default implementation
 	private void buildWindows() {
 		System.out.println("Building Glass Windows");
 	}
 
-	// methods to be implemented by subclasses
+	//methods to be implemented by subclasses
 	public abstract void buildWalls();
-
 	public abstract void buildPillars();
 
 	private void buildFoundation() {
