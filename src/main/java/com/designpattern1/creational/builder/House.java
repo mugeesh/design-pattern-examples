@@ -2,50 +2,34 @@ package com.designpattern1.creational.builder;
 
 //The concrete House class based on the HousePlan interface
 
-
 //https://refactoring.guru/design-patterns/builder
 //https://www.youtube.com/watch?v=9XnsOpjclUg&list=PLF206E906175C7E07&index=8
-public class House implements HousePlan {
+class House implements HousePlan {
 
-	
-	private String door;
-	private String windows;
-	private String roof;
-	private String pool;
 	private String basement;
-	
-	public String getHouseDoor() {
-		return door;
+	private String structure;
+	private String roof;
+	private String interior;
+
+	public void setBasement(String basement) {
+		this.basement = basement;
 	}
-	public void setHouseDoor(String door) {
-		this.door = door;
+
+	public void setStructure(String structure) {
+		this.structure = structure;
 	}
-	public String getHouseWindows() {
-		return windows;
-	}
-	public void setHouseWindows(String windows) {
-		this.windows = windows;
-	}
-	public String getHouseRoof() {
-		return roof;
-	}
-	public void setHouseRoof(String roof) {
+
+	public void setRoof(String roof) {
 		this.roof = roof;
 	}
-	public String getPool() {
-		return pool;
+
+	public void setInterior(String interior) {
+		this.interior = interior;
 	}
+
 	@Override
-	public void setHousePool(String pool) {
-		this.pool = pool;
-		
+	public String toString() {
+		return "\nbasement = " + this.basement + ", structure = " + this.structure + ", roof = " + this.roof
+				+ ", interior = " + this.interior;
 	}
-	@Override
-	public void setBasement(String basement) {
-		this.basement=basement;
-	}
-	public String getBasement() {
-		return basement;
-	}
-	
 }
