@@ -1,6 +1,6 @@
 package com.designpattern2.structural.bridge;
 
-public class TestTheRemote {
+public class TestTheRemoteExample {
 
 	public static void main(String[] args) {
 		RemoteButton theTV = new TVRemoteMute(new TVDevice(1, 200));
