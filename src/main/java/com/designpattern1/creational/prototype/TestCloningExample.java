@@ -1,5 +1,6 @@
 package com.designpattern1.creational.prototype;
-public class TestCloning {
+
+public class TestCloningExample {
 	
 	public static void main(String[] args){
 		
@@ -7,7 +8,7 @@ public class TestCloning {
 		// right subclasses of Animal
 		
 		//TODO this is  option
-		CloneFactory animalMaker = new CloneFactory();
+		//CloneFactory animalMaker = new CloneFactory();
 		
 		
 		// Creates a new Sheep instance

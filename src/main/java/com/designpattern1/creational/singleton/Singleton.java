@@ -26,8 +26,9 @@ public class Singleton {
 	// public static synchronized on this method Singleton getIstance() {....}
 	// if you use synchronized then singleton would be work but it would slow down this getInstace method
 	// so we will not use synchronized in singleton
-
-	public static Singleton getIstance() {
+	//public static synchronized Singleton getIstance() {
+	
+	public static  Singleton getIstance() {
 		if (firstInstance == null) {
 			if (firstThread) {
 				firstThread = false;
