@@ -37,7 +37,7 @@ public class HouseWithSwimmingPoolBuilder implements ModernHouseBuilder {
 	}
 	@Override	
 	public void buildSwimmingPool() {
-		house.setHouseRoof("stylus Swimming Pool");		
+		house.setHousePool("stylus Swimming Pool");		
 	}
 	
 }
