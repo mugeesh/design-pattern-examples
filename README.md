@@ -137,9 +137,9 @@ A Flyweight Pattern says that just "**to reuse already existing similar kind of 
 
 ## Proxy Design Pattern
 Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
-
+<li>provides the control for accessing the original object</li>
 <li>It provides the protection to the original object from the outside world.</li>
-**provides the control for accessing the original object**
+
 
 ## behaviour
 
