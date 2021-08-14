@@ -130,18 +130,16 @@ Facade design pattern is structural design pattern which hide the complexities o
 
 ## FlyWeight Design Pattern
 A Flyweight Pattern says that just "**to reuse already existing similar kind of objects by storing them and create new object when no matching object is found**".
-<p>One important feature of flyweight objects is that they are **immutable**. This means that they cannot be modified once they have been constructed.</p>
+<p>One important feature of flyweight objects is that they are <b>immutable</b>. This means that they cannot be modified once they have been constructed.</p>
 <li>Less number of objects reduces the memory usage, and it manages to keep us away from errors related to memory like <b>java.lang.OutOfMemoryError</b>.</li>
 <li>Although creating an object in Java is really fast, we can still reduce the execution time of our program by sharing objects.</li>
 
 
-
-
 ## Proxy Design Pattern
+Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
 
-
-## proxy
-
+<li>It provides the protection to the original object from the outside world.</li>
+**provides the control for accessing the original object**
 
 ## behaviour
 
