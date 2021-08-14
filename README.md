@@ -11,8 +11,11 @@
 <p><b>Code</b> example in one of the popular programming languages makes it easier to grasp the idea behind the pattern.</p>
 <h2></h2><p>
 In addition, all patterns can be categorized by their intent, or purpose. There are three main groups of patterns: <br/>
+<h2>1. Creational patterns</h2>
 <p><b>Creational patterns</b> provide object creation mechanisms that increase flexibility and reuse of existing code.</p>
+<h2>2. Structural patterns</h2>
 <p><b>Structural patterns</b> explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.<p>
+<h2>3. Behavioral patterns</h2>
 <p><b>Behavioral patterns</b> take care of effective communication and the assignment of responsibilities between objects.</p>
 </p>
 
