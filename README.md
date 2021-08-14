@@ -51,7 +51,7 @@ In addition, all patterns can be categorized by their intent, or purpose. There 
       </ul>
     </li>
    <li>
-      <a href="#behaviour">Behaviour  Design Pattern</a>
+      <a href="#behaviour">Behaviour Design Pattern</a>
       <ul>
         <li><a href="#chain">Chain Of Responsibilities Design Pattern</a></li>
         <li><a href="#command">Command Design Pattern</a></li>
@@ -143,7 +143,12 @@ Proxy is a structural design pattern that lets you provide a substitute or place
 
 ## behaviour
 
-## chain
+## Chain Of Responsibilities Design Pattern
+Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+**exmaple** In the code, addition, subtraction and multiplication are perform using chain.
+
+
+## Chain Of Responsibilities Design Pattern
 
 ## command
 
