@@ -115,6 +115,8 @@ Bridge is a structural design pattern that lets you split a large class or a set
 <li>It allows the hiding of implementation details from the client.</li>
 
 ## Composite Design Pattern
+Composite is a structural design pattern that lets you compose objects into **tree structures** and then work with these structures as if they were individual objects. like in the code example: we are print developer and Manager in a tree hierarchy. 
+
 
 ## Decorator Design Pattern
 
