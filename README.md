@@ -109,7 +109,7 @@ Bridge is a structural design pattern that lets you split a large class or a set
 **Example** like in the code, DVD Player & TVRemote have same remote with different function.
 <li>Decouple an abstraction from its implementation so that the two can vary independently</li>
 <li>The bridge pattern is very poorly explained</li>
-<b>Advantrage<b>
+<b>Advantrage</b>
 <li>It enables the separation of implementation from the interface.</li>
 <li>It improves the extensibility.</li>
 <li>It allows the hiding of implementation details from the client.</li>
