@@ -116,13 +116,26 @@ Bridge is a structural design pattern that lets you split a large class or a set
 
 ## Composite Design Pattern
 Composite is a structural design pattern that lets you compose objects into **tree structures** and then work with these structures as if they were individual objects. like in the code example: we are print developer and Manager in a tree hierarchy. 
+**Example** : https://refactoring.guru/design-patterns/composite
 
 
 ## Decorator Design Pattern
+A Decorator Pattern says that just "attach a flexible additional responsibilities to an object dynamically".
+**Exmaple** In the code, **Pizza** exmaple, if we make normal pizza then add tommoto sauce then price will ve reflect, then add mozzarella then it will add that cost as well.
+
 
 ## Facade Design Pattern
+Facade design pattern is structural design pattern which hide the complexities of the subsystem from the client. like JDBC connection, client just need to implement.
+**Exmaple**. In the code example, client is trying to withdrawal, inside withdrawal we have implemented lots of implementation. 
 
 ## FlyWeight Design Pattern
+A Flyweight Pattern says that just "**to reuse already existing similar kind of objects by storing them and create new object when no matching object is found**".
+<p>One important feature of flyweight objects is that they are **immutable**. This means that they cannot be modified once they have been constructed.</p>
+<li>Less number of objects reduces the memory usage, and it manages to keep us away from errors related to memory like <b>java.lang.OutOfMemoryError</b>.</li>
+<li>Although creating an object in Java is really fast, we can still reduce the execution time of our program by sharing objects.</li>
+
+
+
 
 ## Proxy Design Pattern
 
